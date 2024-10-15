@@ -26,16 +26,16 @@ class MainPage:
         self.main_pricing_unusual_item_link = 'body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1)'
         self.main_pricing_unusual_effect_link = 'body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1)'
         self.main_pricing_marketplace_link = 'li:nth-child(12) a:nth-child(1)'
-        self.main_trading_dropdown = "a[aria-expanded='true']"
+        self.main_trading_dropdown = "body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)"
         self.main_trading_classified = 'body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)'
         self.main_trading_calc = 'body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)'
         self.main_trading_premium = "a[href='/premium/search']"
-        self.main_statistics_dropdown = "a[aria-expanded='true']"
+        self.main_statistics_dropdown = "li[id='nav_toplist'] a[class='dropdown-toggle']"
         self.main_statistics_browse_items = "a[href='/stats']"
         self.main_statistics_top_inv = "a[href='/top/backpacks']"
         self.main_statistics_top_dono = "a[href='/top/donators']"
         self.main_statistics_top_gift = "a[href='/top/generous']"
-        self.main_statistics_most_accurate = 'body > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(5) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1)'
+        self.main_statistics_most_accurate = '/html[1]/body[1]/div[1]/div[1]/div[2]/ul[1]/li[5]/ul[1]/li[9]/a[1]'
         self.main_steam_sign_in = "input[alt='Sign In']"
         self.main_statistics_top_cont = "li[id='nav_toplist'] li:nth-child(8) a:nth-child(1)"
         self.main_refined_metal_price = "a[href='/stats/Unique/Refined%20Metal/Tradable/Craftable']"
@@ -53,30 +53,30 @@ class MainPage:
         self.main_vm_latest_changes = "div[class='col-md-12'] div[class='panel panel-main'] div[class='panel-heading'] span[class='panel-extras'] div a[class='btn btn-panel']"
         self.main_expand_price_suggest = "a[href='/vote?sort=popular']"
         self.main_expand_recent_suggest = "body main[id='page-content'] div:nth-child(6) div:nth-child(2) div:nth-child(1) div:nth-child(1) span:nth-child(2) div:nth-child(1) a:nth-child(1)"
-        self.main_footer_c_forum = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)'
+        self.main_footer_c_forum = 'body > footer:nth-child(9) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)'
         self.main_footer_about = "a[href='/about']"
         self.main_footer_help = "a[href='/help']"
         self.main_footer_c_rules = "a[href='/rules']"
         self.main_footer_issue_tracker = "a[href='/issues']"
         self.main_footer_dev_center = "a[href='/developer']"
-        self.main_footer_pricegrid = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)'
-        self.main_footer_spreadsheet = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)'
+        self.main_footer_pricegrid = "a[href='/pricelist']"
+        self.main_footer_spreadsheet = 'body > footer:nth-child(16) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)'
         self.main_footer_unusual_by_item = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)'
         self.main_footer_unusual_by_effect = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)'
-        self.main_footer_market_pricelist = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)'
-        self.main_footer_calc = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1)'
-        self.main_footer_vote_price = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)'
-        self.main_footer_latest_changes = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)'
+        self.main_footer_market_pricelist = 'body > footer:nth-child(9) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)'
+        self.main_footer_calc = 'body > footer:nth-child(14) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1)'
+        self.main_footer_vote_price = 'body > footer:nth-child(13) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)'
+        self.main_footer_latest_changes = 'body > footer:nth-child(13) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)'
         self.main_footer_top_contr = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)'
         self.main_footer_most_accurate = 'body > footer:nth-child(15) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)'
         self.main_footer_steamrep = "a[href='http://www.steamrep.com']"
         self.main_footer_kritzkast = "a[href='http://www.kritzkast.com/']"
-        self.main_footer_scraptf = "a[href='http://scrap.tf']"
-        self.main_footer_reptf = "a[href='https://rep.tf']"
+        self.main_footer_scrap = "a[href='http://scrap.tf']"
+        self.main_footer_rep = "a[href='https://rep.tf']"
         self.main_footer_unboxer = "a[href='https://unboxer.tf']"
         self.main_footer_dispenser = "a[href='http://dispenser.tf']"
-        self.main_footer_marketplacetf = "a[href='https://marketplace.tf/?r=76561198045802942']"
-        self.main_footer_savetf = "a[href='https://save.tf']"
+        self.main_footer_marketplace = "a[href='https://marketplace.tf/?r=76561198045802942']"
+        self.main_footer_save = "a[href='https://save.tf']"
         self.main_socials_forum = '.social-icon.fa.fa-comments-o'
         self.main_socials_discord = '.social-icon.fa.fa-commenting-o'
         self.main_socials_steam = '.social-icon.stm.stm-steam'
@@ -88,7 +88,7 @@ class MainPage:
     def open_backpack_tf(self):
         self.sb.open(BASE_URL)
         
-    def item_unique_search(self, item_name):
+    def rocket_jumper_unique_search(self, item_name):
         """
         This will search the item you type and select the unique quality of that item since
         
@@ -100,3 +100,7 @@ class MainPage:
 
     def hover_over_first_item(self):
         self.sb.hover_over_element(self.main_first_item)
+
+    def verify_item_page(self, item_text):
+        self.sb.assert_title_contains(item_text)
+        self.sb.assert_element_visible('.price-boxes')

@@ -5,8 +5,10 @@ name = "pypi"
 
 [packages]
 seleniumbase = "4.31.2"
+flake8 = "*"
+black = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.12.4"
