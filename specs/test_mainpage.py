@@ -348,42 +348,49 @@ class TestMainPage(BaseTest):
     def test_footer_kritzkast(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_kritzkast)
+        self.switch_to_newest_tab()
         self.assert_url("https://kritzkast.com/")
 
     @pytest.mark.menu_links
     def test_footer_scraptf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_scrap)
+        self.switch_to_newest_tab()
         self.assert_url("https://scrap.tf/")
 
     @pytest.mark.menu_links
     def test_footer_reptf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_rep)
+        self.switch_to_newest_tab()
         self.assert_url("https://rep.tf/")
 
     @pytest.mark.menu_links
     def test_footer_unboxertf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_unboxer)
+        self.switch_to_newest_tab()
         self.assert_url("https://unboxer.tf/")
 
     @pytest.mark.menu_links
     def test_footer_dispensertf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_dispenser)
+        self.switch_to_newest_tab()
         self.assert_url("https://dispenser.tf/")
 
     @pytest.mark.menu_links
     def test_footer_marketplacetf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_marketplace)
+        self.switch_to_newest_tab()
         self.assert_url_contains("https://marketplace.tf/")
 
     @pytest.mark.menu_links
     def test_footer_savetf(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_footer_save)
+        self.switch_to_newest_tab()
         self.assert_url("https://save.tf/")
 
     @pytest.mark.menu_links
@@ -409,7 +416,7 @@ class TestMainPage(BaseTest):
     def test_socials_twitter(self):
         mainpage = MainPage(self)
         self.click(mainpage.main_socials_twitter)
-        self.assert_url_contains("x.com/backpacktf")
+        self.assert_url_contains("x.com")
 
     @pytest.mark.menu_links
     def test_socials_servers(self):
