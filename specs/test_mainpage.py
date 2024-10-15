@@ -10,7 +10,7 @@ class TestMainPage(BaseTest):
         self.mainpage = MainPage(self)
         self.mainpage.open_backpack_tf()
         # Adding sleep to bypass human verification trigger
-        self.sleep(45)
+        self.sleep(35)
 
     def tearDown(self):
         print("Log Out")
